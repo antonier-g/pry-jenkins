@@ -11,7 +11,7 @@ public class SaludoServiceTest {
     @Test
     public void testSaludar() {
         String resultado = saludoService.saludar("Antonio");
-        assertEquals("Hola, Antonio!", resultado);
+        assertEquals("Hola123, Antonio!", resultado);
     }
 }
 

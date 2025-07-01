@@ -8,7 +8,7 @@ public class JenkinsApplication {
 
 	public static void main(String[] args) {
 
-		System.out.println("xxxxxxxxxxxxxxxxxxxxx -- 1111111111111111111111111111111111111111111");
+		System.out.println("xxxxxxxxxxxxxxxxxxxxx -- 11111222211111111111111111111111111111111111111");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
 

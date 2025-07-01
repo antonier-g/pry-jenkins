@@ -27,7 +27,7 @@ public class SaludoControllerTest {
 
         mockMvc.perform(get("/saludo").param("nombre", "Antonio"))
                 .andExpect(status().isOk())
-                .andExpect(content().string("Hola987, Antonio!"));
+                .andExpect(content().string("Hola, Antonio!"));
     }
 }
 

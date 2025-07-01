@@ -7,6 +7,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class JenkinsApplication {
 
 	public static void main(String[] args) {
+
+		System.out.println("xxxxxxxxxxxxxxxxxxxxx -- xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx");
 		SpringApplication.run(JenkinsApplication.class, args);
 	}
 
